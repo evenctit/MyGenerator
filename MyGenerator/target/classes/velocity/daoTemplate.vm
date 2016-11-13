@@ -1,0 +1,12 @@
+package $packageName;
+
+import com.mis.domain.${modelName};
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ${modelName}Repository extends CrudRepository<${modelName}, Integer> {
+
+
+}

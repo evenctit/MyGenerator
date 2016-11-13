@@ -1,0 +1,8 @@
+package $packageName;
+
+import $packageName.${modelName};
+
+public class ${modelName}Vo extends ${modelName} {
+
+
+}

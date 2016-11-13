@@ -1,0 +1,39 @@
+package $packageName;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class $modelName implements Serializable {
+
+#foreach( $elem in $allElems)
+	#if($elem.camelName.equals("id"))  
+@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id; 
+    #else
+@Column
+private $elem.type $elem.camelName;
+    #end  
+#end
+
+#foreach( $elem in $allElems)
+
+	public $elem.type get$elem.getColName()(){
+        return $elem.camelName;
+     }
+     
+      public void set$elem.getColName()($elem.type $elem.camelName){
+        this.$elem.camelName = $elem.camelName;
+     }
+     
+#end
+
+
+}

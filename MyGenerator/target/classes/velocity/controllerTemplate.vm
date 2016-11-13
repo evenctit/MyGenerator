@@ -1,0 +1,67 @@
+package $packageName;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.mis.domain.${modelName};
+import com.mis.services.${modelName}Service;
+
+
+@Controller
+@RequestMapping("/${camelModelName}")
+public class ${modelName}Controller {
+
+	@Autowired
+    private ${modelName}Service ${camelModelName}Service;
+    
+    @RequestMapping(method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> getAll() {
+		List<${modelName}> list = ${camelModelName}Service.getAll();
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("list", list);
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.POST)
+	@ResponseBody
+	public Map<String,Object> create(@RequestBody ${modelName} ${camelModelName}) {
+		${camelModelName}Service.create${modelName}(${camelModelName});
+		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> getById(@PathVariable("id")Integer id}) {
+		${modelName} ${camelModelName} = ${camelModelName}Service.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("${camelModelName}", ${camelModelName});
+		return model;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
+	@ResponseBody
+	public Map<String,Object> update(@PathVariable("id")Integer id,@RequestBody ${modelName} ${camelModelName}) {
+		${camelModelName}.setId(id);
+		${camelModelName}Service.update${modelName}(${camelModelName});
+		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+	@ResponseBody
+	public Map<String,Object> delete(@PathVariable("id")Integer id) {
+		${modelName} ${camelModelName} = ${camelModelName}Service.findById(id);
+		${camelModelName}Service.delete${modelName}(${camelModelName});
+		return null;
+	}
+	
+}
