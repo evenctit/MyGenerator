@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lottery.model.common.Leagues">
+
+
+	<resultMap id="leagueResult" type="com.lottery.model.common.vo.LeaguesVo">
+		<id property="id" column="id" jdbcType="INTEGER"/>
+		<result property="name" column="name" jdbcType="VARCHAR"/>
+		<result property="icon" column="icon" jdbcType="VARCHAR"/>
+		<result property="seq" column="seq" jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="selectLeagues" resultMap="leagueResult" parameterType="com.lottery.model.common.vo.LeaguesVo">
+      select * from leagues order by name;
+       
+        </select>
+        
+
+</mapper>
+

@@ -39,7 +39,7 @@ angular.module('misApp',[]).controller('Bio', function($scope, $http) {
 		}else{
 			// update news
 			var data = {};
-    										    	data.flmc = $scope.mflmc;
+										    										    	data.flmc = $scope.mflmc;
 			    										    	data.tSwmcId = $scope.mtSwmcId;
 			    						$http.put(basicUrl,data)
 			.success(function (){

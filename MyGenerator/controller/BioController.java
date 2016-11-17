@@ -41,7 +41,7 @@ public class BioController {
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id}) {
+	public Map<String,Object> getById(@PathVariable("id")Integer id) {
 		Bio bio = bioService.findById(id);
 		Map<String,Object> model = new HashMap<String,Object>();
 		model.put("bio", bio);

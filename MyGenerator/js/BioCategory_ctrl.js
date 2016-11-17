@@ -12,13 +12,15 @@ angular.module('misApp',[]).controller('BioCategory', function($scope, $http) {
 			  $http.get(basicUrl)
 			  .success(function (response) {
 			    			    	$scope.mid = response.id
-							    	$scope.mwzmc = response.wzmc
-							    	$scope.mflId = response.flId
+							    	$scope.mbioCatName = response.bioCatName
+							    	$scope.mbioCatDes = response.bioCatDes
+							    	$scope.mbioParentId = response.bioParentId
 							  });
 		    } else {
 		    				    	$scope.mid = "";
-							    	$scope.mwzmc = "";
-							    	$scope.mflId = "";
+							    	$scope.mbioCatName = "";
+							    	$scope.mbioCatDes = "";
+							    	$scope.mbioParentId = "";
 						  }
 	};
 	
@@ -27,8 +29,9 @@ angular.module('misApp',[]).controller('BioCategory', function($scope, $http) {
 			// create news
 			var data = {};
 					    	data.id = $scope.mid;
-					    	data.wzmc = $scope.mwzmc;
-					    	data.flId = $scope.mflId;
+					    	data.bioCatName = $scope.mbioCatName;
+					    	data.bioCatDes = $scope.mbioCatDes;
+					    	data.bioParentId = $scope.mbioParentId;
 						$http.post(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)
@@ -39,8 +42,9 @@ angular.module('misApp',[]).controller('BioCategory', function($scope, $http) {
 		}else{
 			// update news
 			var data = {};
-										    										    	data.wzmc = $scope.mwzmc;
-			    										    	data.flId = $scope.mflId;
+										    										    	data.bioCatName = $scope.mbioCatName;
+			    										    	data.bioCatDes = $scope.mbioCatDes;
+			    										    	data.bioParentId = $scope.mbioParentId;
 			    						$http.put(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)

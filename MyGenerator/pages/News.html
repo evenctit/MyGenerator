@@ -121,6 +121,14 @@
 							<th>updateDate</th>
 							    																						@Column
 							<th>createBy</th>
+							    																						@Column
+							<th>publishDate</th>
+							    																						@Column
+							<th>acticalId</th>
+							    																						@Column
+							<th>acticalLink</th>
+							    																						@Column
+							<th>acticalAuthor</th>
 							    								                        <th>æä½</th>
 	                    </tr>
 	                    </thead>
@@ -141,6 +149,10 @@
 															<td>createDate</td>
 															<td>updateDate</td>
 															<td>createBy</td>
+															<td>publishDate</td>
+															<td>acticalId</td>
+															<td>acticalLink</td>
+															<td>acticalAuthor</td>
 								                        <td>
 	                        	<input type="hidden" ng-model="mId"/>
 	                            <button type="button" class="btn btn-primary" ng-click="edit('edit',news.id)">ä¿®æ¹</button>
@@ -200,6 +212,34 @@
 				    <label class="col-sm-2 control-label">createBy:</label>
 				    <div class="col-sm-10">
 				    <input ng-model="mcreateBy"  placeholder="createBy">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">publishDate:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mpublishDate"  placeholder="publishDate">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">acticalId:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="macticalId"  placeholder="acticalId">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">acticalLink:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="macticalLink"  placeholder="acticalLink">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">acticalAuthor:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="macticalAuthor"  placeholder="acticalAuthor">
 				    </div>
 				  </div> 
 								</form>

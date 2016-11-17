@@ -16,9 +16,11 @@ public class BioCategory implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id; 
     	@Column
-private String wzmc;
+private String bioCatName;
     	@Column
-private int flId;
+private String bioCatDes;
+    	@Column
+private int bioParentId;
     
 
 	public int getId(){
@@ -30,21 +32,30 @@ private int flId;
      }
      
 
-	public String getWzmc(){
-        return wzmc;
+	public String getBioCatName(){
+        return bioCatName;
      }
      
-      public void setWzmc(String wzmc){
-        this.wzmc = wzmc;
+      public void setBioCatName(String bioCatName){
+        this.bioCatName = bioCatName;
      }
      
 
-	public int getFlId(){
-        return flId;
+	public String getBioCatDes(){
+        return bioCatDes;
      }
      
-      public void setFlId(int flId){
-        this.flId = flId;
+      public void setBioCatDes(String bioCatDes){
+        this.bioCatDes = bioCatDes;
+     }
+     
+
+	public int getBioParentId(){
+        return bioParentId;
+     }
+     
+      public void setBioParentId(int bioParentId){
+        this.bioParentId = bioParentId;
      }
      
 

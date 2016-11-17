@@ -18,6 +18,10 @@ angular.module('misApp',[]).controller('News', function($scope, $http) {
 							    	$scope.mcreateDate = response.createDate
 							    	$scope.mupdateDate = response.updateDate
 							    	$scope.mcreateBy = response.createBy
+							    	$scope.mpublishDate = response.publishDate
+							    	$scope.macticalId = response.acticalId
+							    	$scope.macticalLink = response.acticalLink
+							    	$scope.macticalAuthor = response.acticalAuthor
 							  });
 		    } else {
 		    				    	$scope.mid = "";
@@ -27,6 +31,10 @@ angular.module('misApp',[]).controller('News', function($scope, $http) {
 							    	$scope.mcreateDate = "";
 							    	$scope.mupdateDate = "";
 							    	$scope.mcreateBy = "";
+							    	$scope.mpublishDate = "";
+							    	$scope.macticalId = "";
+							    	$scope.macticalLink = "";
+							    	$scope.macticalAuthor = "";
 						  }
 	};
 	
@@ -41,6 +49,10 @@ angular.module('misApp',[]).controller('News', function($scope, $http) {
 					    	data.createDate = $scope.mcreateDate;
 					    	data.updateDate = $scope.mupdateDate;
 					    	data.createBy = $scope.mcreateBy;
+					    	data.publishDate = $scope.mpublishDate;
+					    	data.acticalId = $scope.macticalId;
+					    	data.acticalLink = $scope.macticalLink;
+					    	data.acticalAuthor = $scope.macticalAuthor;
 						$http.post(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)
@@ -57,6 +69,10 @@ angular.module('misApp',[]).controller('News', function($scope, $http) {
 			    										    	data.createDate = $scope.mcreateDate;
 			    										    	data.updateDate = $scope.mupdateDate;
 			    										    	data.createBy = $scope.mcreateBy;
+			    										    	data.publishDate = $scope.mpublishDate;
+			    										    	data.acticalId = $scope.macticalId;
+			    										    	data.acticalLink = $scope.macticalLink;
+			    										    	data.acticalAuthor = $scope.macticalAuthor;
 			    						$http.put(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)

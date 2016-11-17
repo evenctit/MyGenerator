@@ -29,6 +29,14 @@ private $elem.type updateDate;
 private int updateBy;
     	@Column
 private int status;
+    	@Column
+private String author;
+    	@Column
+private $elem.type publishDate;
+    	@Column
+private String periodicals;
+    	@Column
+private String dataAnalyzeId;
     
 
 	public int getId(){
@@ -100,6 +108,42 @@ private int status;
      
       public void setStatus(int status){
         this.status = status;
+     }
+     
+
+	public String getAuthor(){
+        return author;
+     }
+     
+      public void setAuthor(String author){
+        this.author = author;
+     }
+     
+
+	public $elem.type getPublishDate(){
+        return publishDate;
+     }
+     
+      public void setPublishDate($elem.type publishDate){
+        this.publishDate = publishDate;
+     }
+     
+
+	public String getPeriodicals(){
+        return periodicals;
+     }
+     
+      public void setPeriodicals(String periodicals){
+        this.periodicals = periodicals;
+     }
+     
+
+	public String getDataAnalyzeId(){
+        return dataAnalyzeId;
+     }
+     
+      public void setDataAnalyzeId(String dataAnalyzeId){
+        this.dataAnalyzeId = dataAnalyzeId;
      }
      
 

@@ -19,6 +19,10 @@ angular.module('misApp',[]).controller('Article', function($scope, $http) {
 							    	$scope.mupdateDate = response.updateDate
 							    	$scope.mupdateBy = response.updateBy
 							    	$scope.mstatus = response.status
+							    	$scope.mauthor = response.author
+							    	$scope.mpublishDate = response.publishDate
+							    	$scope.mperiodicals = response.periodicals
+							    	$scope.mdataAnalyzeId = response.dataAnalyzeId
 							  });
 		    } else {
 		    				    	$scope.mid = "";
@@ -29,6 +33,10 @@ angular.module('misApp',[]).controller('Article', function($scope, $http) {
 							    	$scope.mupdateDate = "";
 							    	$scope.mupdateBy = "";
 							    	$scope.mstatus = "";
+							    	$scope.mauthor = "";
+							    	$scope.mpublishDate = "";
+							    	$scope.mperiodicals = "";
+							    	$scope.mdataAnalyzeId = "";
 						  }
 	};
 	
@@ -44,6 +52,10 @@ angular.module('misApp',[]).controller('Article', function($scope, $http) {
 					    	data.updateDate = $scope.mupdateDate;
 					    	data.updateBy = $scope.mupdateBy;
 					    	data.status = $scope.mstatus;
+					    	data.author = $scope.mauthor;
+					    	data.publishDate = $scope.mpublishDate;
+					    	data.periodicals = $scope.mperiodicals;
+					    	data.dataAnalyzeId = $scope.mdataAnalyzeId;
 						$http.post(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)
@@ -61,6 +73,10 @@ angular.module('misApp',[]).controller('Article', function($scope, $http) {
 			    										    	data.updateDate = $scope.mupdateDate;
 			    										    	data.updateBy = $scope.mupdateBy;
 			    										    	data.status = $scope.mstatus;
+			    										    	data.author = $scope.mauthor;
+			    										    	data.publishDate = $scope.mpublishDate;
+			    										    	data.periodicals = $scope.mperiodicals;
+			    										    	data.dataAnalyzeId = $scope.mdataAnalyzeId;
 			    						$http.put(basicUrl,data)
 			.success(function (){
 				$http.get(basicUrl)

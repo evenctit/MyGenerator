@@ -123,6 +123,14 @@
 							<th>updateBy</th>
 							    																						@Column
 							<th>status</th>
+							    																						@Column
+							<th>author</th>
+							    																						@Column
+							<th>publishDate</th>
+							    																						@Column
+							<th>periodicals</th>
+							    																						@Column
+							<th>dataAnalyzeId</th>
 							    								                        <th>æä½</th>
 	                    </tr>
 	                    </thead>
@@ -144,6 +152,10 @@
 															<td>updateDate</td>
 															<td>updateBy</td>
 															<td>status</td>
+															<td>author</td>
+															<td>publishDate</td>
+															<td>periodicals</td>
+															<td>dataAnalyzeId</td>
 								                        <td>
 	                        	<input type="hidden" ng-model="mId"/>
 	                            <button type="button" class="btn btn-primary" ng-click="edit('edit',article.id)">ä¿®æ¹</button>
@@ -210,6 +222,34 @@
 				    <label class="col-sm-2 control-label">status:</label>
 				    <div class="col-sm-10">
 				    <input ng-model="mstatus"  placeholder="status">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">author:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mauthor"  placeholder="author">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">publishDate:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mpublishDate"  placeholder="publishDate">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">periodicals:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mperiodicals"  placeholder="periodicals">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">dataAnalyzeId:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mdataAnalyzeId"  placeholder="dataAnalyzeId">
 				    </div>
 				  </div> 
 								</form>

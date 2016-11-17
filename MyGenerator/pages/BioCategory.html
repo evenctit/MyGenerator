@@ -110,9 +110,11 @@
 	                    <thead>
 	                    <tr>
 	                        															    																						@Column
-							<th>wzmc</th>
+							<th>bioCatName</th>
 							    																						@Column
-							<th>flId</th>
+							<th>bioCatDes</th>
+							    																						@Column
+							<th>bioParentId</th>
 							    								                        <th>æä½</th>
 	                    </tr>
 	                    </thead>
@@ -127,8 +129,9 @@
 	                        <td>{{ bioCategory.createDate | date:'mediumDate'}}</td>
 	                        <td><span class="label label-warning label-mini">Due</span></td>
 	                         								<td>id</td>
-															<td>wzmc</td>
-															<td>flId</td>
+															<td>bioCatName</td>
+															<td>bioCatDes</td>
+															<td>bioParentId</td>
 								                        <td>
 	                        	<input type="hidden" ng-model="mId"/>
 	                            <button type="button" class="btn btn-primary" ng-click="edit('edit',bioCategory.id)">ä¿®æ¹</button>
@@ -150,16 +153,23 @@
 				  </div> 
 									<td></td>
 				  <div class="form-group">
-				    <label class="col-sm-2 control-label">wzmc:</label>
+				    <label class="col-sm-2 control-label">bioCatName:</label>
 				    <div class="col-sm-10">
-				    <input ng-model="mwzmc"  placeholder="wzmc">
+				    <input ng-model="mbioCatName"  placeholder="bioCatName">
 				    </div>
 				  </div> 
 									<td></td>
 				  <div class="form-group">
-				    <label class="col-sm-2 control-label">flId:</label>
+				    <label class="col-sm-2 control-label">bioCatDes:</label>
 				    <div class="col-sm-10">
-				    <input ng-model="mflId"  placeholder="flId">
+				    <input ng-model="mbioCatDes"  placeholder="bioCatDes">
+				    </div>
+				  </div> 
+									<td></td>
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label">bioParentId:</label>
+				    <div class="col-sm-10">
+				    <input ng-model="mbioParentId"  placeholder="bioParentId">
 				    </div>
 				  </div> 
 								</form>

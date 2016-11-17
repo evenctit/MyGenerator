@@ -41,7 +41,7 @@ public class UserController {
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id}) {
+	public Map<String,Object> getById(@PathVariable("id")Integer id) {
 		User user = userService.findById(id);
 		Map<String,Object> model = new HashMap<String,Object>();
 		model.put("user", user);

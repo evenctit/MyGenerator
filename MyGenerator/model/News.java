@@ -27,6 +27,14 @@ private $elem.type createDate;
 private $elem.type updateDate;
     	@Column
 private int createBy;
+    	@Column
+private $elem.type publishDate;
+    	@Column
+private int acticalId;
+    	@Column
+private String acticalLink;
+    	@Column
+private String acticalAuthor;
     
 
 	public int getId(){
@@ -89,6 +97,42 @@ private int createBy;
      
       public void setCreateBy(int createBy){
         this.createBy = createBy;
+     }
+     
+
+	public $elem.type getPublishDate(){
+        return publishDate;
+     }
+     
+      public void setPublishDate($elem.type publishDate){
+        this.publishDate = publishDate;
+     }
+     
+
+	public int getActicalId(){
+        return acticalId;
+     }
+     
+      public void setActicalId(int acticalId){
+        this.acticalId = acticalId;
+     }
+     
+
+	public String getActicalLink(){
+        return acticalLink;
+     }
+     
+      public void setActicalLink(String acticalLink){
+        this.acticalLink = acticalLink;
+     }
+     
+
+	public String getActicalAuthor(){
+        return acticalAuthor;
+     }
+     
+      public void setActicalAuthor(String acticalAuthor){
+        this.acticalAuthor = acticalAuthor;
      }
      
 
