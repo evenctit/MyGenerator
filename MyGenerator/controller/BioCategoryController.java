@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.BioCategoryService;
 
 
 @Controller
-@RequestMapping("/bioCategory")
+@RequestMapping("/admins/bioCategory")
 public class BioCategoryController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class BioCategoryController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		BioCategory bioCategory = bioCategoryService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("bioCategory", bioCategory);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class BioCategoryController {
 		bioCategory.setId(id);
 		bioCategoryService.updateBioCategory(bioCategory);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		BioCategory bioCategory = bioCategoryService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("bioCategory", bioCategory);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

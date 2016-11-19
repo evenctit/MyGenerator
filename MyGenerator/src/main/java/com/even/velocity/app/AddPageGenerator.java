@@ -13,7 +13,7 @@ import com.even.velocity.constants.VelocityConstant;
 import com.even.velocity.model.Table;
 import com.even.velocity.util.StringUtil;
 
-public class PageGenerator implements Generator {
+public class AddPageGenerator implements Generator {
 
 	
 	@Override

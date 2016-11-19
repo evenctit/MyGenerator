@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.User;
@@ -42,6 +43,15 @@ public class UserService {
 
 	public List<User> getAll() {
 		Iterator<User> it = userRepository.findAll().iterator();
+		List<User> list = new ArrayList<User>();
+		for (; it.hasNext();) {
+			list.add((User) it.next());
+		}
+		return list;
+	}
+	
+	public List<User> getAll(Pageable pageable) {
+		Iterator<User> it = userRepository.findAll(pageable).iterator();
 		List<User> list = new ArrayList<User>();
 		for (; it.hasNext();) {
 			list.add((User) it.next());

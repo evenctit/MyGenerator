@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.ScholarInteraction;
@@ -42,6 +43,15 @@ public class ScholarInteractionService {
 
 	public List<ScholarInteraction> getAll() {
 		Iterator<ScholarInteraction> it = scholarInteractionRepository.findAll().iterator();
+		List<ScholarInteraction> list = new ArrayList<ScholarInteraction>();
+		for (; it.hasNext();) {
+			list.add((ScholarInteraction) it.next());
+		}
+		return list;
+	}
+	
+	public List<ScholarInteraction> getAll(Pageable pageable) {
+		Iterator<ScholarInteraction> it = scholarInteractionRepository.findAll(pageable).iterator();
 		List<ScholarInteraction> list = new ArrayList<ScholarInteraction>();
 		for (; it.hasNext();) {
 			list.add((ScholarInteraction) it.next());

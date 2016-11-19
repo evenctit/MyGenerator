@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.DataAnalyzeCategoryService;
 
 
 @Controller
-@RequestMapping("/dataAnalyzeCategory")
+@RequestMapping("/admins/dataAnalyzeCategory")
 public class DataAnalyzeCategoryController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class DataAnalyzeCategoryController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		DataAnalyzeCategory dataAnalyzeCategory = dataAnalyzeCategoryService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("dataAnalyzeCategory", dataAnalyzeCategory);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class DataAnalyzeCategoryController {
 		dataAnalyzeCategory.setId(id);
 		dataAnalyzeCategoryService.updateDataAnalyzeCategory(dataAnalyzeCategory);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		DataAnalyzeCategory dataAnalyzeCategory = dataAnalyzeCategoryService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("dataAnalyzeCategory", dataAnalyzeCategory);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

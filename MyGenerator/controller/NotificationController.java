@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.NotificationService;
 
 
 @Controller
-@RequestMapping("/notification")
+@RequestMapping("/admins/notification")
 public class NotificationController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class NotificationController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		Notification notification = notificationService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("notification", notification);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class NotificationController {
 		notification.setId(id);
 		notificationService.updateNotification(notification);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		Notification notification = notificationService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("notification", notification);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

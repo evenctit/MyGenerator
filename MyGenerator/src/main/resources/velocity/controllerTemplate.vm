@@ -17,7 +17,7 @@ import com.mis.services.${modelName}Service;
 
 
 @Controller
-@RequestMapping("/${camelModelName}")
+@RequestMapping("/admins/${camelModelName}")
 public class ${modelName}Controller {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class ${modelName}Controller {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		${modelName} ${camelModelName} = ${camelModelName}Service.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("${camelModelName}", ${camelModelName});
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class ${modelName}Controller {
 		${camelModelName}.setId(id);
 		${camelModelName}Service.update${modelName}(${camelModelName});
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		${modelName} ${camelModelName} = ${camelModelName}Service.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("${camelModelName}", ${camelModelName});
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

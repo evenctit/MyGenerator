@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.Role;
@@ -42,6 +43,15 @@ public class RoleService {
 
 	public List<Role> getAll() {
 		Iterator<Role> it = roleRepository.findAll().iterator();
+		List<Role> list = new ArrayList<Role>();
+		for (; it.hasNext();) {
+			list.add((Role) it.next());
+		}
+		return list;
+	}
+	
+	public List<Role> getAll(Pageable pageable) {
+		Iterator<Role> it = roleRepository.findAll(pageable).iterator();
 		List<Role> list = new ArrayList<Role>();
 		for (; it.hasNext();) {
 			list.add((Role) it.next());

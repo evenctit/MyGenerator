@@ -25,6 +25,15 @@ private $elem.type $elem.camelName;
 
 #foreach( $elem in $allElems)
 
+	#if($elem.camelName.equals("id"))  
+public Integer get$elem.getColName()(){
+        return $elem.camelName;
+     }
+     
+      public void set$elem.getColName()(Integer $elem.camelName){
+        this.$elem.camelName = $elem.camelName;
+     }
+    #else
 	public $elem.type get$elem.getColName()(){
         return $elem.camelName;
      }
@@ -32,6 +41,8 @@ private $elem.type $elem.camelName;
       public void set$elem.getColName()($elem.type $elem.camelName){
         this.$elem.camelName = $elem.camelName;
      }
+    #end  
+
      
 #end
 

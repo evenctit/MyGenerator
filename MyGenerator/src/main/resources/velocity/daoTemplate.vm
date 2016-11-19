@@ -2,11 +2,11 @@ package $packageName;
 
 import com.mis.domain.${modelName};
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ${modelName}Repository extends CrudRepository<${modelName}, Integer> {
+public interface ${modelName}Repository extends PagingAndSortingRepository<${modelName}, Integer> {
 
 
 }

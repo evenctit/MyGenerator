@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.ResourceService;
 
 
 @Controller
-@RequestMapping("/resource")
+@RequestMapping("/admins/resource")
 public class ResourceController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class ResourceController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		Resource resource = resourceService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("resource", resource);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class ResourceController {
 		resource.setId(id);
 		resourceService.updateResource(resource);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		Resource resource = resourceService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("resource", resource);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

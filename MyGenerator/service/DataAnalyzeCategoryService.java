@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.DataAnalyzeCategory;
@@ -42,6 +43,15 @@ public class DataAnalyzeCategoryService {
 
 	public List<DataAnalyzeCategory> getAll() {
 		Iterator<DataAnalyzeCategory> it = dataAnalyzeCategoryRepository.findAll().iterator();
+		List<DataAnalyzeCategory> list = new ArrayList<DataAnalyzeCategory>();
+		for (; it.hasNext();) {
+			list.add((DataAnalyzeCategory) it.next());
+		}
+		return list;
+	}
+	
+	public List<DataAnalyzeCategory> getAll(Pageable pageable) {
+		Iterator<DataAnalyzeCategory> it = dataAnalyzeCategoryRepository.findAll(pageable).iterator();
 		List<DataAnalyzeCategory> list = new ArrayList<DataAnalyzeCategory>();
 		for (; it.hasNext();) {
 			list.add((DataAnalyzeCategory) it.next());

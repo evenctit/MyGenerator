@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.BioCategory;
@@ -42,6 +43,15 @@ public class BioCategoryService {
 
 	public List<BioCategory> getAll() {
 		Iterator<BioCategory> it = bioCategoryRepository.findAll().iterator();
+		List<BioCategory> list = new ArrayList<BioCategory>();
+		for (; it.hasNext();) {
+			list.add((BioCategory) it.next());
+		}
+		return list;
+	}
+	
+	public List<BioCategory> getAll(Pageable pageable) {
+		Iterator<BioCategory> it = bioCategoryRepository.findAll(pageable).iterator();
 		List<BioCategory> list = new ArrayList<BioCategory>();
 		for (; it.hasNext();) {
 			list.add((BioCategory) it.next());

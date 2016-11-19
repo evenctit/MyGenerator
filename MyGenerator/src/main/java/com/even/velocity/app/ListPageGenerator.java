@@ -13,7 +13,7 @@ import com.even.velocity.constants.VelocityConstant;
 import com.even.velocity.model.Table;
 import com.even.velocity.util.StringUtil;
 
-public class PageGenerator implements Generator {
+public class ListPageGenerator implements Generator {
 
 	
 	@Override
@@ -29,30 +29,19 @@ public class PageGenerator implements Generator {
 			context.put("modelName", tableName);
 			context.put("camelModelName", camelTableName);
 			context.put("allElems", table.getColumnList());
-			
-			writer = new BufferedWriter(new OutputStreamWriter((new FileOutputStream("pages/" + camelTableName + "_add.html"))));
+			writer = new BufferedWriter(new OutputStreamWriter((new FileOutputStream("pages/" + tableName + ".html"))));
 
-			Template addtemplate = Velocity.getTemplate(VelocityConstant.V_TEMPLATE_ADD_PAGE);
+			Template template = Velocity.getTemplate(VelocityConstant.V_TEMPLATE_PAGE);
 
-			addtemplate.merge(context, writer);
-
-			writer.flush();
-			
-			System.out.println("Generate add pages successful");
-			
-			writer = new BufferedWriter(new OutputStreamWriter((new FileOutputStream("pages/" + camelTableName + "_list.html"))));
-
-			Template listtemplate = Velocity.getTemplate(VelocityConstant.V_TEMPLATE_LIST_PAGE);
-
-			listtemplate.merge(context, writer);
+			template.merge(context, writer);
 
 			writer.flush();
 			
-			System.out.println("Generate list pages successful");
+			System.out.println("Generate pages successful");
 			
-			writer = new BufferedWriter(new OutputStreamWriter((new FileOutputStream("js/" + camelTableName + "_ctrl.js"))));
+			writer = new BufferedWriter(new OutputStreamWriter((new FileOutputStream("js/" + tableName + "_ctrl.js"))));
 
-			Template jsTemplate = Velocity.getTemplate(VelocityConstant.V_TEMPLATE_JS_PAGE);
+			Template jsTemplate = Velocity.getTemplate(VelocityConstant.V_TEMPLATE_JS);
 
 			jsTemplate.merge(context, writer);
 

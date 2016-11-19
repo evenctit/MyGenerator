@@ -2,11 +2,11 @@ package com.mis.repositories;
 
 import com.mis.domain.Bio;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BioRepository extends CrudRepository<Bio, Integer> {
+public interface BioRepository extends PagingAndSortingRepository<Bio, Integer> {
 
 
 }

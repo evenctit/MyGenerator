@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.StudyTeam;
@@ -42,6 +43,15 @@ public class StudyTeamService {
 
 	public List<StudyTeam> getAll() {
 		Iterator<StudyTeam> it = studyTeamRepository.findAll().iterator();
+		List<StudyTeam> list = new ArrayList<StudyTeam>();
+		for (; it.hasNext();) {
+			list.add((StudyTeam) it.next());
+		}
+		return list;
+	}
+	
+	public List<StudyTeam> getAll(Pageable pageable) {
+		Iterator<StudyTeam> it = studyTeamRepository.findAll(pageable).iterator();
 		List<StudyTeam> list = new ArrayList<StudyTeam>();
 		for (; it.hasNext();) {
 			list.add((StudyTeam) it.next());

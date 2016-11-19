@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.StudyTeamService;
 
 
 @Controller
-@RequestMapping("/studyTeam")
+@RequestMapping("/admins/studyTeam")
 public class StudyTeamController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class StudyTeamController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		StudyTeam studyTeam = studyTeamService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("studyTeam", studyTeam);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class StudyTeamController {
 		studyTeam.setId(id);
 		studyTeamService.updateStudyTeam(studyTeam);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		StudyTeam studyTeam = studyTeamService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("studyTeam", studyTeam);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

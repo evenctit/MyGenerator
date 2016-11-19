@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.Notification;
@@ -42,6 +43,15 @@ public class NotificationService {
 
 	public List<Notification> getAll() {
 		Iterator<Notification> it = notificationRepository.findAll().iterator();
+		List<Notification> list = new ArrayList<Notification>();
+		for (; it.hasNext();) {
+			list.add((Notification) it.next());
+		}
+		return list;
+	}
+	
+	public List<Notification> getAll(Pageable pageable) {
+		Iterator<Notification> it = notificationRepository.findAll(pageable).iterator();
 		List<Notification> list = new ArrayList<Notification>();
 		for (; it.hasNext();) {
 			list.add((Notification) it.next());

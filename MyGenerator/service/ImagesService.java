@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.Images;
@@ -42,6 +43,15 @@ public class ImagesService {
 
 	public List<Images> getAll() {
 		Iterator<Images> it = imagesRepository.findAll().iterator();
+		List<Images> list = new ArrayList<Images>();
+		for (; it.hasNext();) {
+			list.add((Images) it.next());
+		}
+		return list;
+	}
+	
+	public List<Images> getAll(Pageable pageable) {
+		Iterator<Images> it = imagesRepository.findAll(pageable).iterator();
 		List<Images> list = new ArrayList<Images>();
 		for (; it.hasNext();) {
 			list.add((Images) it.next());

@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.News;
@@ -42,6 +43,15 @@ public class NewsService {
 
 	public List<News> getAll() {
 		Iterator<News> it = newsRepository.findAll().iterator();
+		List<News> list = new ArrayList<News>();
+		for (; it.hasNext();) {
+			list.add((News) it.next());
+		}
+		return list;
+	}
+	
+	public List<News> getAll(Pageable pageable) {
+		Iterator<News> it = newsRepository.findAll(pageable).iterator();
 		List<News> list = new ArrayList<News>();
 		for (; it.hasNext();) {
 			list.add((News) it.next());

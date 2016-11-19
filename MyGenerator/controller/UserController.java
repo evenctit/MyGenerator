@@ -1,4 +1,4 @@
-package com.mis.web;
+package com.mis.web.admins;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ import com.mis.services.UserService;
 
 
 @Controller
-@RequestMapping("/user")
+@RequestMapping("/admins/user")
 public class UserController {
 
 	@Autowired
@@ -39,14 +39,7 @@ public class UserController {
 		return null;
 	}
 	
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Map<String,Object> getById(@PathVariable("id")Integer id) {
-		User user = userService.findById(id);
-		Map<String,Object> model = new HashMap<String,Object>();
-		model.put("user", user);
-		return model;
-	}
+	
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	@ResponseBody
@@ -54,6 +47,15 @@ public class UserController {
 		user.setId(id);
 		userService.updateUser(user);
 		return null;
+	}
+	
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@ResponseBody
+	public Map<String,Object> get(@PathVariable("id")Integer id) {
+		User user = userService.findById(id);
+		Map<String,Object> model = new HashMap<String,Object>();
+		model.put("user", user);
+		return model;
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)

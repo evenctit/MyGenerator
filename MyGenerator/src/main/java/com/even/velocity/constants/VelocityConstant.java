@@ -10,11 +10,13 @@ public class VelocityConstant {
 	public final static String V_TEMPLATE_SERVICE = "src/main/resources/velocity/serviceTemplate.vm";
 	public final static String V_TEMPLATE_CONTROLLER = "src/main/resources/velocity/controllerTemplate.vm";
 	public final static String V_TEMPLATE_PAGE = "src/main/resources/velocity/pages.vm";
-	public final static String V_TEMPLATE_JS = "src/main/resources/velocity/js.vm";
+	public final static String V_TEMPLATE_ADD_PAGE = "src/main/resources/velocity/add_page.vm";
+	public final static String V_TEMPLATE_LIST_PAGE = "src/main/resources/velocity/list_page.vm";
+	public final static String V_TEMPLATE_JS_PAGE = "src/main/resources/velocity/js_page.vm";
 	
 	public final static String V_TEMPLATE_PKG_DAO = "com.mis.repositories";
 	public final static String V_TEMPLATE_PKG_SERVICE = "com.mis.services";
-	public final static String V_TEMPLATE_PKG_CONTROLLER = "com.mis.web";
+	public final static String V_TEMPLATE_PKG_CONTROLLER = "com.mis.web.admins";
 	
 
 }

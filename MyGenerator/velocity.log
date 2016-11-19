@@ -1,565 +1,563 @@
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,046 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,047 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,048 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,049 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,049 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,050 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,051 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,054 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,055 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,062 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,062 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,063 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,064 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,065 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,066 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,066 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,067 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,068 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,068 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,071 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,073 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,073 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,074 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,076 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,076 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,076 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,077 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,078 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,078 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,079 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,081 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,081 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,082 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,083 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,083 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,084 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,085 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,085 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,086 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,087 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,088 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,088 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,088 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,088 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,088 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,088 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,089 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,090 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,090 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,090 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,090 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,090 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,090 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,091 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,091 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,091 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,091 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,091 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,092 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,092 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,093 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,093 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,094 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,096 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,096 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,097 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,098 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,099 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,099 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,100 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,100 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,101 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,102 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,103 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,105 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,105 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,106 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,107 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,107 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,108 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,118 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,119 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,119 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,119 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,121 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,122 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,122 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,123 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,124 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,125 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,125 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,126 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,126 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,127 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,127 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,128 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,128 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,129 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,130 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,130 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,131 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,132 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,132 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,132 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 28, column 16] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,132 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 32, column 41] : $elem.type cannot be resolved.
-2016-11-17 08:46:37,133 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,133 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,134 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,134 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,135 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,136 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,137 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,138 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,139 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,141 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,142 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,142 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,143 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,144 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,144 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,145 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,147 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,147 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,148 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,151 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,152 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,153 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,153 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,154 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,154 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,155 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,155 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,159 - ResourceManager : found src/main/resources/velocity/pages.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,160 - ResourceManager : found src/main/resources/velocity/js.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 65] : $scope cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 3, column 73] : $http cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 5, column 9] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 8, column 19] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 10, column 9] : $scope.edit cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 12, column 27] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 15, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,161 - Null reference [template 'src/main/resources/velocity/js.vm', line 20, column 33] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 25, column 9] : $scope.add cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 20] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 26, column 60] : $scope.mId cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 30, column 48] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 32, column 25] : $http.post(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 34, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 36, column 41] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 45, column 56] : $scope.m cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 48, column 25] : $http.put(basicUrl,data) cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 50, column 33] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 52, column 43] : $scope.list cannot be resolved.
-2016-11-17 08:46:37,164 - Null reference [template 'src/main/resources/velocity/js.vm', line 58, column 9] : $scope.remove cannot be resolved.
-2016-11-17 08:46:37,165 - Null reference [template 'src/main/resources/velocity/js.vm', line 59, column 17] : $http.delete(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,165 - Null reference [template 'src/main/resources/velocity/js.vm', line 61, column 25] : $http.get(basicUrl) cannot be resolved.
-2016-11-17 08:46:37,165 - Null reference [template 'src/main/resources/velocity/js.vm', line 63, column 35] : $scope.list cannot be resolved.
+2016-11-20 04:18:53,774 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,775 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,777 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,778 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,779 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,781 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,781 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,782 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,784 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,785 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,787 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,787 - ResourceManager : found src/main/resources/velocity/add_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,788 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,788 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,792 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,792 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,793 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,794 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,795 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,796 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,796 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,797 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,797 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,798 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,799 - ResourceManager : found src/main/resources/velocity/add_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,800 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,800 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,801 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,801 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,802 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,803 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,805 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,805 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 22, column 9] : $elem.type cannot be resolved.
+2016-11-20 04:18:53,805 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 37, column 16] : $elem.type cannot be resolved.
+2016-11-20 04:18:53,805 - Null reference [template 'src/main/resources/velocity/modelTemplate.vm', line 41, column 41] : $elem.type cannot be resolved.
+2016-11-20 04:18:53,806 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,807 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,807 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,808 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,808 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,809 - ResourceManager : found src/main/resources/velocity/add_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,813 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,813 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,814 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,814 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,815 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,816 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,818 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,819 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,820 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,821 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,822 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,822 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,823 - ResourceManager : found src/main/resources/velocity/add_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,823 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,824 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,825 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,825 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,826 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,827 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,828 - ResourceManager : found src/main/resources/velocity/modelTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,829 - ResourceManager : found src/main/resources/velocity/modelVoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,829 - ResourceManager : found src/main/resources/velocity/modelQueryTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,830 - ResourceManager : found src/main/resources/velocity/controllerTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,831 - ResourceManager : found src/main/resources/velocity/serviceTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,831 - ResourceManager : found src/main/resources/velocity/daoTemplate.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,832 - ResourceManager : found src/main/resources/velocity/add_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,832 - ResourceManager : found src/main/resources/velocity/list_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,832 - Null reference [template 'src/main/resources/velocity/list_page.vm', line 69, column 78] : $index cannot be resolved.
+2016-11-20 04:18:53,836 - ResourceManager : found src/main/resources/velocity/js_page.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 77] : $scope cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 84] : $http cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 90] : $window cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 3, column 98] : $location cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 4, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 5, column 9] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,836 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 7, column 19] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 10, column 19] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 19] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 44] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 11, column 82] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 19] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 37] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 12, column 62] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 13, column 19] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 14, column 19] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 17, column 19] : $scope.setData cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 27] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 42] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 78] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 97] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 120] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 18, column 137] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 19] : $scope.items cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 34] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 20, column 72] : $scope.pageSize cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 23, column 39] : $scope.newPages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 24, column 27] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 27, column 19] : $scope.selectPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 29, column 50] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 77] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 34, column 92] : $scope.pages cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 37, column 33] : $scope.pageList cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 39, column 27] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 40, column 27] : $scope.setData() cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 41, column 27] : $scope.isActivePage(page) cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 45, column 25] : $scope.isActivePage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 46, column 40] : $scope.selPage cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 49, column 25] : $scope.Previous cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 50, column 33] : $scope.selectPage($scope.selPage-1) cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 53, column 25] : $scope.Next cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 54, column 33] : $scope.selectPage($scope.selPage) cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 57, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 59, column 17] : $http cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 63, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 67, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 70, column 25] : $location cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 73, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 76, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 80] : $scope cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 87] : $http cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 93] : $routeParams cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 80, column 106] : $location cannot be resolved.
+2016-11-20 04:18:53,837 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 81, column 18] : $routeParams.id cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 35] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 82, column 60] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 84, column 17] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 85, column 17] : $http.get(baseUrl) cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 88, column 33] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 93, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 96, column 17] : $location cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 99, column 9] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 100, column 26] : $scope.id cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 43] : $location.host() cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 101, column 68] : $location.port() cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 105, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 107, column 25] : $http.post(baseUrl , data) cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 111, column 33] : $location cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 116, column 56] : $scope cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 119, column 25] : $http.put(baseUrl, data) cannot be resolved.
+2016-11-20 04:18:53,838 - Null reference [template 'src/main/resources/velocity/js_page.vm', line 123, column 33] : $location cannot be resolved.

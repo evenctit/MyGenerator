@@ -8,6 +8,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.mis.domain.BioSpecification;
@@ -42,6 +43,15 @@ public class BioSpecificationService {
 
 	public List<BioSpecification> getAll() {
 		Iterator<BioSpecification> it = bioSpecificationRepository.findAll().iterator();
+		List<BioSpecification> list = new ArrayList<BioSpecification>();
+		for (; it.hasNext();) {
+			list.add((BioSpecification) it.next());
+		}
+		return list;
+	}
+	
+	public List<BioSpecification> getAll(Pageable pageable) {
+		Iterator<BioSpecification> it = bioSpecificationRepository.findAll(pageable).iterator();
 		List<BioSpecification> list = new ArrayList<BioSpecification>();
 		for (; it.hasNext();) {
 			list.add((BioSpecification) it.next());
