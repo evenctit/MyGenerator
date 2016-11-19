@@ -29,67 +29,74 @@ private int type;
 private String teamGroupName;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getDesc(){
+		public String getDesc(){
         return desc;
      }
      
       public void setDesc(String desc){
         this.desc = desc;
      }
+    
      
 
-	public String getStudyDirection(){
+		public String getStudyDirection(){
         return studyDirection;
      }
      
       public void setStudyDirection(String studyDirection){
         this.studyDirection = studyDirection;
      }
+    
      
 
-	public String getSubjectsTask(){
+		public String getSubjectsTask(){
         return subjectsTask;
      }
      
       public void setSubjectsTask(String subjectsTask){
         this.subjectsTask = subjectsTask;
      }
+    
      
 
-	public String getRelativeArticles(){
+		public String getRelativeArticles(){
         return relativeArticles;
      }
      
       public void setRelativeArticles(String relativeArticles){
         this.relativeArticles = relativeArticles;
      }
+    
      
 
-	public int getType(){
+		public int getType(){
         return type;
      }
      
       public void setType(int type){
         this.type = type;
      }
+    
      
 
-	public String getTeamGroupName(){
+		public String getTeamGroupName(){
         return teamGroupName;
      }
      
       public void setTeamGroupName(String teamGroupName){
         this.teamGroupName = teamGroupName;
      }
+    
      
 
 

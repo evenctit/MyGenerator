@@ -25,49 +25,54 @@ private String scholarContent;
 private int createBy;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public $elem.type getScholarDate(){
+		public $elem.type getScholarDate(){
         return scholarDate;
      }
      
       public void setScholarDate($elem.type scholarDate){
         this.scholarDate = scholarDate;
      }
+    
      
 
-	public String getScholarName(){
+		public String getScholarName(){
         return scholarName;
      }
      
       public void setScholarName(String scholarName){
         this.scholarName = scholarName;
      }
+    
      
 
-	public String getScholarContent(){
+		public String getScholarContent(){
         return scholarContent;
      }
      
       public void setScholarContent(String scholarContent){
         this.scholarContent = scholarContent;
      }
+    
      
 
-	public int getCreateBy(){
+		public int getCreateBy(){
         return createBy;
      }
      
       public void setCreateBy(int createBy){
         this.createBy = createBy;
      }
+    
      
 
 

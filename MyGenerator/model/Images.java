@@ -21,31 +21,34 @@ private String path;
 private String foreignId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getPath(){
+		public String getPath(){
         return path;
      }
      
       public void setPath(String path){
         this.path = path;
      }
+    
      
 
-	public String getForeignId(){
+		public String getForeignId(){
         return foreignId;
      }
      
       public void setForeignId(String foreignId){
         this.foreignId = foreignId;
      }
+    
      
 
 

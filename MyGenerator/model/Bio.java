@@ -21,31 +21,34 @@ private String flmc;
 private int tSwmcId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getFlmc(){
+		public String getFlmc(){
         return flmc;
      }
      
       public void setFlmc(String flmc){
         this.flmc = flmc;
      }
+    
      
 
-	public int getTSwmcId(){
+		public int getTSwmcId(){
         return tSwmcId;
      }
      
       public void setTSwmcId(int tSwmcId){
         this.tSwmcId = tSwmcId;
      }
+    
      
 
 

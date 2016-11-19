@@ -19,22 +19,24 @@ public class DataAnalyzeCategory implements Serializable {
 private String analyzeTypeName;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getAnalyzeTypeName(){
+		public String getAnalyzeTypeName(){
         return analyzeTypeName;
      }
      
       public void setAnalyzeTypeName(String analyzeTypeName){
         this.analyzeTypeName = analyzeTypeName;
      }
+    
      
 
 

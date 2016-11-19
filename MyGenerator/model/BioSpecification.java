@@ -31,76 +31,84 @@ private int databaseId;
 private int relativeActicleId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getBasicInfo(){
+		public String getBasicInfo(){
         return basicInfo;
      }
      
       public void setBasicInfo(String basicInfo){
         this.basicInfo = basicInfo;
      }
+    
      
 
-	public String getProjectProgressBrifeDes(){
+		public String getProjectProgressBrifeDes(){
         return projectProgressBrifeDes;
      }
      
       public void setProjectProgressBrifeDes(String projectProgressBrifeDes){
         this.projectProgressBrifeDes = projectProgressBrifeDes;
      }
+    
      
 
-	public int getBioCatId(){
+		public int getBioCatId(){
         return bioCatId;
      }
      
       public void setBioCatId(int bioCatId){
         this.bioCatId = bioCatId;
      }
+    
      
 
-	public String getBasicVideoDesPath(){
+		public String getBasicVideoDesPath(){
         return basicVideoDesPath;
      }
      
       public void setBasicVideoDesPath(String basicVideoDesPath){
         this.basicVideoDesPath = basicVideoDesPath;
      }
+    
      
 
-	public String getProjectProgressDetailDes(){
+		public String getProjectProgressDetailDes(){
         return projectProgressDetailDes;
      }
      
       public void setProjectProgressDetailDes(String projectProgressDetailDes){
         this.projectProgressDetailDes = projectProgressDetailDes;
      }
+    
      
 
-	public int getDatabaseId(){
+		public int getDatabaseId(){
         return databaseId;
      }
      
       public void setDatabaseId(int databaseId){
         this.databaseId = databaseId;
      }
+    
      
 
-	public int getRelativeActicleId(){
+		public int getRelativeActicleId(){
         return relativeActicleId;
      }
      
       public void setRelativeActicleId(int relativeActicleId){
         this.relativeActicleId = relativeActicleId;
      }
+    
      
 
 

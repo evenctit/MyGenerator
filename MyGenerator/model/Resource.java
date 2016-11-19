@@ -21,31 +21,34 @@ private String resources;
 private int roleId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getResources(){
+		public String getResources(){
         return resources;
      }
      
       public void setResources(String resources){
         this.resources = resources;
      }
+    
      
 
-	public int getRoleId(){
+		public int getRoleId(){
         return roleId;
      }
      
       public void setRoleId(int roleId){
         this.roleId = roleId;
      }
+    
      
 
 

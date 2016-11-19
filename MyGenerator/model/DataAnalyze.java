@@ -23,40 +23,44 @@ private String dataAnalyzeTitle;
 private String dataAnalyzeLink;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public int getDataAnalyzeCatId(){
+		public int getDataAnalyzeCatId(){
         return dataAnalyzeCatId;
      }
      
       public void setDataAnalyzeCatId(int dataAnalyzeCatId){
         this.dataAnalyzeCatId = dataAnalyzeCatId;
      }
+    
      
 
-	public String getDataAnalyzeTitle(){
+		public String getDataAnalyzeTitle(){
         return dataAnalyzeTitle;
      }
      
       public void setDataAnalyzeTitle(String dataAnalyzeTitle){
         this.dataAnalyzeTitle = dataAnalyzeTitle;
      }
+    
      
 
-	public String getDataAnalyzeLink(){
+		public String getDataAnalyzeLink(){
         return dataAnalyzeLink;
      }
      
       public void setDataAnalyzeLink(String dataAnalyzeLink){
         this.dataAnalyzeLink = dataAnalyzeLink;
      }
+    
      
 
 

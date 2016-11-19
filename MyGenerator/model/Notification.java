@@ -29,67 +29,74 @@ private $elem.type updateDate;
 private int createBy;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getSubject(){
+		public String getSubject(){
         return subject;
      }
      
       public void setSubject(String subject){
         this.subject = subject;
      }
+    
      
 
-	public String getContent(){
+		public String getContent(){
         return content;
      }
      
       public void setContent(String content){
         this.content = content;
      }
+    
      
 
-	public String getStatus(){
+		public String getStatus(){
         return status;
      }
      
       public void setStatus(String status){
         this.status = status;
      }
+    
      
 
-	public $elem.type getCreateDate(){
+		public $elem.type getCreateDate(){
         return createDate;
      }
      
       public void setCreateDate($elem.type createDate){
         this.createDate = createDate;
      }
+    
      
 
-	public $elem.type getUpdateDate(){
+		public $elem.type getUpdateDate(){
         return updateDate;
      }
      
       public void setUpdateDate($elem.type updateDate){
         this.updateDate = updateDate;
      }
+    
      
 
-	public int getCreateBy(){
+		public int getCreateBy(){
         return createBy;
      }
      
       public void setCreateBy(int createBy){
         this.createBy = createBy;
      }
+    
      
 
 

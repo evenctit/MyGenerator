@@ -27,58 +27,64 @@ private String desc;
 private int teamId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getUsername(){
+		public String getUsername(){
         return username;
      }
      
       public void setUsername(String username){
         this.username = username;
      }
+    
      
 
-	public String getPassword(){
+		public String getPassword(){
         return password;
      }
      
       public void setPassword(String password){
         this.password = password;
      }
+    
      
 
-	public String getStatus(){
+		public String getStatus(){
         return status;
      }
      
       public void setStatus(String status){
         this.status = status;
      }
+    
      
 
-	public String getDesc(){
+		public String getDesc(){
         return desc;
      }
      
       public void setDesc(String desc){
         this.desc = desc;
      }
+    
      
 
-	public int getTeamId(){
+		public int getTeamId(){
         return teamId;
      }
      
       public void setTeamId(int teamId){
         this.teamId = teamId;
      }
+    
      
 
 

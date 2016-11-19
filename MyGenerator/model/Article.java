@@ -39,112 +39,124 @@ private String periodicals;
 private String dataAnalyzeId;
     
 
-	public int getId(){
+	public Integer getId(){
         return id;
      }
      
-      public void setId(int id){
+      public void setId(Integer id){
         this.id = id;
      }
+    
      
 
-	public String getSubject(){
+		public String getSubject(){
         return subject;
      }
      
       public void setSubject(String subject){
         this.subject = subject;
      }
+    
      
 
-	public String getContent(){
+		public String getContent(){
         return content;
      }
      
       public void setContent(String content){
         this.content = content;
      }
+    
      
 
-	public $elem.type getCreateDate(){
+		public $elem.type getCreateDate(){
         return createDate;
      }
      
       public void setCreateDate($elem.type createDate){
         this.createDate = createDate;
      }
+    
      
 
-	public int getCreateBy(){
+		public int getCreateBy(){
         return createBy;
      }
      
       public void setCreateBy(int createBy){
         this.createBy = createBy;
      }
+    
      
 
-	public $elem.type getUpdateDate(){
+		public $elem.type getUpdateDate(){
         return updateDate;
      }
      
       public void setUpdateDate($elem.type updateDate){
         this.updateDate = updateDate;
      }
+    
      
 
-	public int getUpdateBy(){
+		public int getUpdateBy(){
         return updateBy;
      }
      
       public void setUpdateBy(int updateBy){
         this.updateBy = updateBy;
      }
+    
      
 
-	public int getStatus(){
+		public int getStatus(){
         return status;
      }
      
       public void setStatus(int status){
         this.status = status;
      }
+    
      
 
-	public String getAuthor(){
+		public String getAuthor(){
         return author;
      }
      
       public void setAuthor(String author){
         this.author = author;
      }
+    
      
 
-	public $elem.type getPublishDate(){
+		public $elem.type getPublishDate(){
         return publishDate;
      }
      
       public void setPublishDate($elem.type publishDate){
         this.publishDate = publishDate;
      }
+    
      
 
-	public String getPeriodicals(){
+		public String getPeriodicals(){
         return periodicals;
      }
      
       public void setPeriodicals(String periodicals){
         this.periodicals = periodicals;
      }
+    
      
 
-	public String getDataAnalyzeId(){
+		public String getDataAnalyzeId(){
         return dataAnalyzeId;
      }
      
       public void setDataAnalyzeId(String dataAnalyzeId){
         this.dataAnalyzeId = dataAnalyzeId;
      }
+    
      
 
 
