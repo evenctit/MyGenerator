@@ -16,7 +16,7 @@ public class StudyTeam implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id; 
     	@Column
-private String desc;
+private String description;
     	@Column
 private String studyDirection;
     	@Column
@@ -27,6 +27,8 @@ private String relativeArticles;
 private int type;
     	@Column
 private String teamGroupName;
+    	@Column
+private String studyTeamcol;
     
 
 	public Integer getId(){
@@ -39,12 +41,12 @@ private String teamGroupName;
     
      
 
-		public String getDesc(){
-        return desc;
+		public String getDescription(){
+        return description;
      }
      
-      public void setDesc(String desc){
-        this.desc = desc;
+      public void setDescription(String description){
+        this.description = description;
      }
     
      
@@ -95,6 +97,16 @@ private String teamGroupName;
      
       public void setTeamGroupName(String teamGroupName){
         this.teamGroupName = teamGroupName;
+     }
+    
+     
+
+		public String getStudyTeamcol(){
+        return studyTeamcol;
+     }
+     
+      public void setStudyTeamcol(String studyTeamcol){
+        this.studyTeamcol = studyTeamcol;
      }
     
      

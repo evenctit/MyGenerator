@@ -59,12 +59,13 @@
 						<thead>
 							 <tr>
 		                        									<th>id</th>
-																	<th>desc</th>
+																	<th>description</th>
 																	<th>studyDirection</th>
 																	<th>subjectsTask</th>
 																	<th>relativeArticles</th>
 																	<th>type</th>
 																	<th>teamGroupName</th>
+																	<th>studyTeamcol</th>
 									                        <th>Action</th>
 	                    </tr>
 						</thead>
@@ -72,12 +73,13 @@
 							<tr ng-repeat="studyTeam in items | filter:searchText">
 								<td ng-bind="$index+1"><a ng-click="studyTeam_edit(studyTeam.id);">1</a></td>
 																											
-								    																											<td>{{ studyTeam.desc }} </td>
+								    																											<td>{{ studyTeam.description }} </td>
 								    																											<td>{{ studyTeam.studyDirection }} </td>
 								    																											<td>{{ studyTeam.subjectsTask }} </td>
 								    																											<td>{{ studyTeam.relativeArticles }} </td>
 								    																											<td>{{ studyTeam.type }} </td>
 								    																											<td>{{ studyTeam.teamGroupName }} </td>
+								    																											<td>{{ studyTeam.studyTeamcol }} </td>
 								    															
 								<td>
 									<button type="button" class="btn btn-primary"
